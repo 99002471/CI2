@@ -86,7 +86,7 @@ void test_pos(void)
 {
   CU_ASSERT(1== pos(1));
 }
-void test_pos(void)
+void test_neg(void)
 {
   CU_ASSERT(-1== neg(-4));
 }
