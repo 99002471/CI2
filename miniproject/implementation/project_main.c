@@ -122,7 +122,7 @@ void calculator_menu(void)
             getchar();
             break;
             
-        case 9:
+        case 10:
             exit(0);
             break;
             default:
