@@ -17,6 +17,7 @@ void test_iszero(void);
 void test_modu(void);
 void test_eve(void);
 void test_odd(void);
+void test_perc(void)
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -39,6 +40,7 @@ int main() {
   CU_add_test(suite, "modu", test_modu);
   CU_add_test(suite, "eve", test_eve);
   CU_add_test(suite, "odd", test_odd);
+  CU_add_test(suite, "perc", test_perc);
 
 
 /* Note: Do not edit START*/
@@ -113,6 +115,9 @@ void test_eve(void)
 void test_odd(void) 
 {
   CU_ASSERT(1 == odd(3));
+}
+void test_perc(void) {
+  CU_ASSERT(5 == perc(5, 100));
 }
 
 
