@@ -59,3 +59,7 @@ int iszero(int operand1)
 	if(operand1==0)
 		return 0;	
 }
+int modu(int operand1, int operand2)
+{
+    return operand1 % operand2;
+}
