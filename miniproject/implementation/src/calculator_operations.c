@@ -63,3 +63,10 @@ int modu(int operand1, int operand2)
 {
     return operand1 % operand2;
 }
+int eve(int operand1)
+{
+	if(operand1%2==0)
+	{
+		return 1;
+	}
+}
