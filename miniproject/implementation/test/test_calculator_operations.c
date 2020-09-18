@@ -17,7 +17,7 @@ void test_iszero(void);
 void test_modu(void);
 void test_eve(void);
 void test_odd(void);
-void test_perc(void)
+void test_perc(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
