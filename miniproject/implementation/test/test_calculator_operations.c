@@ -11,6 +11,7 @@ void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
 void test_prime(void);
+void test_pos(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -27,6 +28,7 @@ int main() {
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "prime", test_prime);
+  CU_add_test(suite, "pos", test_pos);
 
 
 /* Note: Do not edit START*/
@@ -76,3 +78,8 @@ void test_prime(void)
    CU_ASSERT(-1==prime(5));
    CU_ASSERT(1==prime(4));
  }
+void test_pos(void)
+{
+  CU_ASSERT(1== pos(1));
+}
+
