@@ -16,6 +16,7 @@ void test_neg(void);
 void test_iszero(void);
 void test_modu(void);
 void test_eve(void);
+void test_odd(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
