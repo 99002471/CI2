@@ -114,9 +114,9 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case eve:
+        case ECE:
             printf("\n\t%d / %d = %d\nEnter to continue",
-            eve(calculator_operand1);
+            eve(calculator_operand1));
 
             __fpurge(stdin);
             getchar();
@@ -125,8 +125,6 @@ void calculator_menu(void)
         case 8:
             exit(0);
             break;
-        default:
-            printf("\n\t---It should never come here---\n");
     }
 }
 
