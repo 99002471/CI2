@@ -77,3 +77,7 @@ int odd(int operand1)
 		return 1;
 	}
 }
+int perc(int operand1, int operand2)
+{
+    return (operand1*100 /operand2);
+}
