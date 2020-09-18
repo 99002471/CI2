@@ -44,3 +44,8 @@ int isprime(int operand1)
   else
   return 1;
 }
+int pos(int operand1)
+{
+	if(operand1>0)
+		return 1;	
+}
