@@ -114,7 +114,7 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case EvE:
+        case EVE:
             printf("\n\t%d / %d = %d\nEnter to continue",
             eve(calculator_operand1));
 
