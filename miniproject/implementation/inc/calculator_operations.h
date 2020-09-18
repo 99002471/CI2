@@ -19,6 +19,7 @@ int divide(int operand1, int operand2);
 
 int prime(int operand1);
 int pos(int operand1);
+int neg(int operand1);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 
