@@ -12,7 +12,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -105,7 +105,16 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case 6:
+         case MODU:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            calculator_operand1,
+            calculator_operand2,
+            modu(calculator_operand1, calculator_operand2));
+
+            __fpurge(stdin);
+            getchar();
+            break;
+        case 7:
             exit(0);
             break;
         default:
