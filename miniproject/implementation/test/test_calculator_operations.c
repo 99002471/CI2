@@ -37,6 +37,7 @@ int main() {
   CU_add_test(suite, "iszero", test_iszero);
   CU_add_test(suite, "modu", test_modu);
   CU_add_test(suite, "eve", test_eve);
+  CU_add_test(suite, "odd", test_odd);
 
 
 /* Note: Do not edit START*/
@@ -107,6 +108,10 @@ void test_modu(void) {
 void test_eve(void) 
 {
   CU_ASSERT(1 == eve(2));
+}
+void test_odd(void) 
+{
+  CU_ASSERT(1 == odd(3));
 }
 
 
