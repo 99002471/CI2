@@ -21,6 +21,7 @@ int prime(int operand1);
 int pos(int operand1);
 int neg(int operand1);
 int iszero(int operand1);
+int modu(int operand1, int operand2);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 
