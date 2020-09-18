@@ -70,3 +70,10 @@ int eve(int operand1)
 		return 1;
 	}
 }
+int odd(int operand1)
+{
+	if(operand1%2==1)
+	{
+		return 1;
+	}
+}
