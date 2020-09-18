@@ -15,6 +15,7 @@ void test_pos(void);
 void test_neg(void);
 void test_iszero(void);
 void test_modu(void);
+void test_eve(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -35,6 +36,7 @@ int main() {
   CU_add_test(suite, "neg", test_neg);
   CU_add_test(suite, "iszero", test_iszero);
   CU_add_test(suite, "modu", test_modu);
+  CU_add_test(suite, "eve", test_eve);
 
 
 /* Note: Do not edit START*/
@@ -102,3 +104,9 @@ void test_modu(void) {
   /* Dummy fail*/
   CU_ASSERT(2 == divide(11, 3));
 }
+void test_eve(void) 
+{
+  CU_ASSERT(1 == eve(2));
+}
+
+
