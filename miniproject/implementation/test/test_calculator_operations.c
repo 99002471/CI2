@@ -73,6 +73,6 @@ void test_divide(void) {
 
 void test_prime(void)
  {
-   CU_ASSERT(-1, prime(5));
-   CU_ASSERT(1, prime(4));
+   CU_ASSERT(-1==prime(5));
+   CU_ASSERT(1==prime(4));
  }
