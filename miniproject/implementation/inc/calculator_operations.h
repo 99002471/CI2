@@ -23,6 +23,7 @@ int neg(int operand1);
 int iszero(int operand1);
 int modu(int operand1, int operand2);
 int eve(int operand1);
+int odd(int operand1);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 
