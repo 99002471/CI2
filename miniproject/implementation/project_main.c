@@ -12,7 +12,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,FACTORIAL,AMS,SQ,CU,VOLCU,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,FACTORIAL,AMS,SQ,CU,VOLCUBE,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -205,10 +205,10 @@ void calculator_menu(void)
             __fpurge(stdin);
 
             getchar();
-           case VOLCU:
+           case VOLCUBE:
             printf("\n\t%d / %d = %d\nEnter to continue",
 
-                   volcu(calculator_operand1));
+                   volcube(calculator_operand1));
 
             __fpurge(stdin);
 
