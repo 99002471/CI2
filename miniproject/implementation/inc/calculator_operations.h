@@ -28,5 +28,6 @@ int arrq(int operand1, int operand2);
 int arsq(int operand1);
 int arci(int operand1);
 int factorial(int operand1);
+int ams(int operand1);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 #endif // CALCULATOR_OPERATIONS_H_INCLUDED
