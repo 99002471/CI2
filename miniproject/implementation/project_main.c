@@ -151,7 +151,7 @@ void calculator_menu(void)
           case PMCR:
             printf("\n\t%d / %d = %d\nEnter to continue",
             calculator_operand1,
-            pmCR(calculator_operand1));
+            pmcr(calculator_operand1));
 
             __fpurge(stdin);
             getchar();
