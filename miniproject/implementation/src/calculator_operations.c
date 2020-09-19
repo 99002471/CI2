@@ -92,3 +92,7 @@ int pmrq(int operand1)
 {
 	return operand1*4;
 }
+int pmcr(int operand1)
+{
+	return operand1*6;
+}
