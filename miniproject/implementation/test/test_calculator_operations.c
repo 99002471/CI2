@@ -18,6 +18,7 @@ void test_modu(void);
 void test_eve(void);
 void test_odd(void);
 void test_perc(void);
+void test_pmsq(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -41,6 +42,7 @@ int main() {
   CU_add_test(suite, "eve", test_eve);
   CU_add_test(suite, "odd", test_odd);
   CU_add_test(suite, "perc", test_perc);
+  CU_add_test(suite, "pmsq", test_pmsq);
 
 
 /* Note: Do not edit START*/
@@ -118,6 +120,9 @@ void test_odd(void)
 }
 void test_perc(void) {
   CU_ASSERT(5 == perc(5, 100));
+}
+void test_pmsq(void) {
+  CU_ASSERT(8 == pmsq(2, 2));
 }
 
 
