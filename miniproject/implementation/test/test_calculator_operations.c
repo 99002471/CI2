@@ -128,7 +128,7 @@ void test_pmsq(void) {
   CU_ASSERT(8 == pmsq(2, 2));
 }
 void test_pmrq(void) {
-  CU_ASSERT(12 == pmsq(3));
+  CU_ASSERT(12 == pmrq(3));
 }
 
 
