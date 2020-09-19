@@ -12,7 +12,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,FACTORIAL,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -179,7 +179,13 @@ void calculator_menu(void)
             getchar();
 
             break;
-        case 19:
+            case FACTORIAL:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+            factorial(calculator_operand1));
+            __fpurge(stdin);
+            getchar();
+            break;
+        case 20:
             exit(0);
             break;
             default:
