@@ -183,7 +183,7 @@ void test_sq(void)
 }
 void test_cu(void) 
 {
-  CU_ASSERT(1000 == arcu(10));
+  CU_ASSERT(1000 == cu(10));
 }
 
 
