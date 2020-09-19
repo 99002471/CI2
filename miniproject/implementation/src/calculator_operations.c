@@ -183,9 +183,11 @@ int rev(int operand1)
 	}	return rev;
 }
 int volcube(int operand1)
-
 {
-
 	return operand1* operand1*operand1;
-
 }
+int volsp(int operand1)
+{
+	return operand1* operand1*operand1*4;
+}
+
