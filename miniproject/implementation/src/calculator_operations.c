@@ -145,3 +145,22 @@ int factorial(int operand1)
   return operand1 * factorial(operand1-1);
 
 }
+int ams(int operand1)
+{
+	int i,rem=0res=0;
+	i=operand1;
+	while(i!=0)
+	{
+		rem=i%10;
+		res+=rem*rem*rem;
+		i/=10
+	}
+	if(res==operand1)
+	{
+		return 1;
+	}
+	else
+	{
+		return 0;
+	}
+}	
