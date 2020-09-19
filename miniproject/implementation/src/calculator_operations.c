@@ -96,3 +96,10 @@ int pmcr(int operand1)
 {
 	return operand1*6;
 }
+int pmtr(int operand1, int operand2)
+
+{
+
+    return operand1 + operand2;
+
+}
