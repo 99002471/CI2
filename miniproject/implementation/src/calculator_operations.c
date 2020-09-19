@@ -147,7 +147,7 @@ int factorial(int operand1)
 }
 int ams(int operand1)
 {
-	int i,rem=0res=0;
+	int i,rem=0,res=0;
 	i=operand1;
 	while(i!=0)
 	{
