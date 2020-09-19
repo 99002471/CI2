@@ -2,7 +2,6 @@
 #define CALCULATOR_OPERATIONS_H_INCLUDED
 #ifndef __CALCULATOR_OPERATIONS_H__
 #define __CALCULATOR_OPERATIONS_H__
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdio_ext.h>
@@ -31,5 +30,6 @@ int factorial(int operand1);
 int ams(int operand1);
 int sq(int operand1);
 int cu(int operand1);
+int rev(int operand1);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 #endif // CALCULATOR_OPERATIONS_H_INCLUDED
