@@ -172,3 +172,13 @@ int cu(int operand1)
 {
 	return operand1* operand1*operand1;
 }
+int rev(int operand1)
+{
+	int rev=0,rem=0;
+	while(operand1!=0)
+	{
+		rem=operand1%10;
+		rev=rev*10+rem;
+		operand1/=10;
+	}	return rev;
+}
