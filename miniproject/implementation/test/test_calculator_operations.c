@@ -144,7 +144,7 @@ void test_pmtr(void) {
   /* Dummy fail*/
   CU_ASSERT(1500 == add(750, 7500));
 }
-void test_pmtr(void) {
+void test_arrq(void) {
   CU_ASSERT(200 == arrq(10, 20));
 
   /* Dummy fail*/
