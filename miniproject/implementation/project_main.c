@@ -155,28 +155,8 @@ void calculator_menu(void)
 
             __fpurge(stdin);
             getchar();
-           case ARRQ:
-            printf("\n\t%d / %d = %d\nEnter to continue",
-            calculator_operand1,
-            calculator_operand2,
-            ARRQ(calculator_operand1, calculator_operand2));
-             __fpurge(stdin);
-            getchar();
-           case ARSQ:
-            printf("\n\t%d / %d = %d\nEnter to continue",
-            calculator_operand1,
-            arsq(calculator_operand1));
-            __fpurge(stdin);
-            getchar();
-           case ARCI:
-            printf("\n\t%d / %d = %d\nEnter to continue",
-            calculator_operand1,
-            arci(calculator_operand1));
-            __fpurge(stdin);
-            getchar();
             
-            
-        case 18:
+        case 16:
             exit(0);
             break;
             default:
