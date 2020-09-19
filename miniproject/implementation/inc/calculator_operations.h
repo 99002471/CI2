@@ -24,6 +24,7 @@ int pmrq(int operand1);
 int pmrq(int operand1);
 int pmcr(int operand1);
 int pmtr(int operand1, int operand2);
+int arrq(int operand1, int operand2);
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 
