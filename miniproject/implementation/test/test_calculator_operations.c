@@ -181,9 +181,9 @@ void test_sq(void)
 {
   CU_ASSERT(100 == arsq(10));
 }
-void test_sq(void) 
+void test_cu(void) 
 {
-  CU_ASSERT(1000 == arsq(10));
+  CU_ASSERT(1000 == arcu(10));
 }
 
 
