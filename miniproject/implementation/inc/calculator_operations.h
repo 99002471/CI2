@@ -21,6 +21,8 @@ int odd(int operand1);
 int perc(int operand1, int operand2);
 int pmsq(int operand1, int operand2);
 int pmrq(int operand1);
+int pmrq(int operand1);
+int pmcr(int operand1)
 
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 
