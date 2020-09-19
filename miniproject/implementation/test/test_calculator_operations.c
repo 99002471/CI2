@@ -28,6 +28,7 @@ void test_arci(void);
 void test_factorial(void);
 void test_ams(void);
 void test_sq(void);
+void test_cu(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -60,7 +61,7 @@ int main() {
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "ams", test_ams);
   CU_add_test(suite, "sq", test_sq);
-
+  CU_add_test(suite, "cu", test_cu);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -179,6 +180,10 @@ void test_ams(void)
 void test_sq(void) 
 {
   CU_ASSERT(100 == arsq(10));
+}
+void test_sq(void) 
+{
+  CU_ASSERT(1000 == arsq(10));
 }
 
 
