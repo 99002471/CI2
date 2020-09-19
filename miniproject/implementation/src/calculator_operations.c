@@ -153,7 +153,7 @@ int ams(int operand1)
 	{
 		rem=i%10;
 		res+=rem*rem*rem;
-		i/=10
+		i/=10;
 	}
 	if(res==operand1)
 	{
