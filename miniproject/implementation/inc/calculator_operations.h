@@ -32,5 +32,6 @@ int sq(int operand1);
 int cu(int operand1);
 int rev(int operand1);
 int volcube(int operand1);
+int volsp(int operand1);
 #endif  /* #define __CALCULATOR_OPERATIONS_H__ */
 #endif // CALCULATOR_OPERATIONS_H_INCLUDED
