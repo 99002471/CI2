@@ -24,6 +24,7 @@ void test_pmcr(void);
 void test_pmtr(void);
 void test_arrq(void);
 void test_arsq(void);
+void test_arci(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -52,7 +53,7 @@ int main() {
   CU_add_test(suite, "pmcr", test_pmcr);
   CU_add_test(suite, "arrq", test_arrq);
   CU_add_test(suite, "arsq", test_arsq);
-
+  CU_add_test(suite, "arci", test_arci);
 
 
 /* Note: Do not edit START*/
@@ -155,6 +156,10 @@ void test_arrq(void) {
 void test_arsq(void) 
 {
   CU_ASSERT(100 == arsq(10));
+}
+void test_arci(void) 
+{
+  CU_ASSERT(27 == arci(3));
 }
 
 
