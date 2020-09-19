@@ -88,3 +88,7 @@ int pmsq(int operand1, int operand2)
     return operand1*2 + operand2*2;
 
 }
+int pmrq(int operand1)
+{
+	return operand1*4;
+}
