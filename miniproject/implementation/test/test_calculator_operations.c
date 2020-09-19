@@ -25,6 +25,7 @@ void test_pmtr(void);
 void test_arrq(void);
 void test_arsq(void);
 void test_arci(void);
+void test_factorial(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -54,6 +55,7 @@ int main() {
   CU_add_test(suite, "arrq", test_arrq);
   CU_add_test(suite, "arsq", test_arsq);
   CU_add_test(suite, "arci", test_arci);
+  CU_add_test(suite, "factorial", test_factorial);
 
 
 /* Note: Do not edit START*/
@@ -160,6 +162,11 @@ void test_arsq(void)
 void test_arci(void) 
 {
   CU_ASSERT(27 == arci(3));
+}
+void test_factorial(void)
+{
+  CU_ASSERT(6 == factorial(3));
+  
 }
 
 
