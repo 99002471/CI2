@@ -27,6 +27,7 @@ void test_arsq(void);
 void test_arci(void);
 void test_factorial(void);
 void test_ams(void);
+void test_sq(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -58,6 +59,7 @@ int main() {
   CU_add_test(suite, "arci", test_arci);
   CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "ams", test_ams);
+  CU_add_test(suite, "sq", test_sq);
 
 
 /* Note: Do not edit START*/
@@ -173,6 +175,10 @@ void test_ams(void)
 {
   CU_ASSERT(1 == ams(371));
   
+}
+void test_sq(void) 
+{
+  CU_ASSERT(100 == arsq(10));
 }
 
 
