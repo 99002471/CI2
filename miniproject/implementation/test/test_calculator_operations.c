@@ -29,6 +29,7 @@ void test_factorial(void);
 void test_ams(void);
 void test_sq(void);
 void test_cu(void);
+void test_rev(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -62,6 +63,7 @@ int main() {
   CU_add_test(suite, "ams", test_ams);
   CU_add_test(suite, "sq", test_sq);
   CU_add_test(suite, "cu", test_cu);
+  CU_add_test(suite, "rev", test_rev);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -185,5 +187,8 @@ void test_cu(void)
 {
   CU_ASSERT(1000 == cu(10));
 }
-
+void test_rev(void) 
+{
+  CU_ASSERT(456 == cu(654));
+}
 
