@@ -20,6 +20,7 @@ void test_odd(void);
 void test_perc(void);
 void test_pmsq(void);
 void test_pmrq(void);
+void test_pmcr(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -45,6 +46,7 @@ int main() {
   CU_add_test(suite, "perc", test_perc);
   CU_add_test(suite, "pmsq", test_pmsq);
   CU_add_test(suite, "pmrq", test_pmrq);
+  CU_add_test(suite, "pmcr", test_pmcr);
 
 
 
@@ -130,6 +132,8 @@ void test_pmsq(void) {
 void test_pmrq(void) {
   CU_ASSERT(12 == pmrq(3));
 }
-
+void test_pmcr(void) {
+  CU_ASSERT(12 == pmrq(2));
+}
 
 
