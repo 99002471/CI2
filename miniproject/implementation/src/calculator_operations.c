@@ -110,7 +110,7 @@ int arrq(int operand1, int operand2)
     return operand1* operand2;
 
 }
-int arsq(int operand1, int operand2)
+int arsq(int operand1)
 
 {
 	return operand1* operand1;
