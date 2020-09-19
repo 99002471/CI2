@@ -168,3 +168,7 @@ int sq(int operand1)
 {
 	return operand1* operand1;
 }
+int cu(int operand1)
+{
+	return operand1* operand1*operand1;
+}
