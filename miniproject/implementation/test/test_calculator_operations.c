@@ -31,6 +31,7 @@ void test_sq(void);
 void test_cu(void);
 void test_rev(void);
 void test_volcube(void);
+void test_volsp(void);
 /* Start of the application test */
 int main() {
 /* Note: Do not edit START*/
@@ -66,6 +67,7 @@ int main() {
   CU_add_test(suite, "cu", test_cu);
   CU_add_test(suite, "rev", test_rev);
   CU_add_test(suite, "volcube", test_volcube);
+  CU_add_test(suite, "volsp", test_volsp);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -196,5 +198,9 @@ void test_rev(void)
 void test_volcube(void) 
 {
   CU_ASSERT(8 == volcube(2));
+}
+void test_volsp(void) 
+{
+  CU_ASSERT(32 == volcube(2));
 }
 
