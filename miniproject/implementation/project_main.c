@@ -168,7 +168,18 @@ void calculator_menu(void)
             __fpurge(stdin);
             getchar();
             break;
-        case 18:
+            case ARCI:
+
+            printf("\n\t%d / %d = %d\nEnter to continue",
+
+            arci(calculator_operand1));
+
+            __fpurge(stdin);
+
+            getchar();
+
+            break;
+        case 19:
             exit(0);
             break;
             default:
