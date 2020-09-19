@@ -154,7 +154,7 @@ void test_arrq(void) {
 }
 void test_arsq(void) 
 {
-  CU_ASSERT(100 == arrq(10));
+  CU_ASSERT(100 == arsq(10));
 }
 
 
