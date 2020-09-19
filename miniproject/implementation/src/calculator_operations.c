@@ -115,3 +115,8 @@ int arsq(int operand1)
 {
 	return operand1* operand1;
 }
+int arci(int operand1)
+
+{
+	return operand1* operand1*3;
+}
