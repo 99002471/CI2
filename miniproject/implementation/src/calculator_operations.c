@@ -163,4 +163,8 @@ int ams(int operand1)
 	{
 		return 0;
 	}
-}	
+}
+int sq(int operand1)
+{
+	return operand1* operand1;
+}
