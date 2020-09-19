@@ -22,7 +22,6 @@ void test_pmsq(void);
 void test_pmrq(void);
 void test_pmcr(void);
 void test_pmtr(void);
-void test_pmtr(void);
 void test_arrq(void);
 /* Start of the application test */
 int main() {
