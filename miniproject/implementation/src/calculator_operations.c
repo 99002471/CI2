@@ -182,3 +182,10 @@ int rev(int operand1)
 		operand1/=10;
 	}	return rev;
 }
+int volcube(int operand1)
+
+{
+
+	return operand1* operand1*operand1;
+
+}
