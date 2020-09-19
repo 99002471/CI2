@@ -12,7 +12,7 @@ int calculator_operand1 = 0;
 int calculator_operand2 = 0;
 
 /* Valid operations */
-enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,FACTORIAL,AMS,SQ,EXIT };
+enum operations{ ADD=1, SUBTRACT, MULTIPLY, DIVIDE, PRIME, POS , NEG, MODU, EVE,ODD,PERC,PMSQ,PMRQ,PMCR,ARRQ,ARSQ,ARCI,FACTORIAL,AMS,SQ,CU,EXIT };
 
 /* Display the menu of operations supported */
 void calculator_menu(void);
@@ -197,7 +197,15 @@ void calculator_menu(void)
                    sq(calculator_operand1));
             __fpurge(stdin);
             getchar();
-        case 22:
+             case CU:
+            printf("\n\t%d / %d = %d\nEnter to continue",
+
+                   cu(calculator_operand1));
+
+            __fpurge(stdin);
+
+            getchar();
+        case 23:
             exit(0);
             break;
             default:
