@@ -81,3 +81,10 @@ int perc(int operand1, int operand2)
 {
     return (operand1*100 /operand2);
 }
+int pmsq(int operand1, int operand2)
+
+{
+
+    return operand1*2 + operand2*2;
+
+}
